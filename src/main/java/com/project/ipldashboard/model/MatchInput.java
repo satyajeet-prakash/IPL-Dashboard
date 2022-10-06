@@ -1,4 +1,4 @@
-package com.project.ipldashboard.data;
+package com.project.ipldashboard.model;
 
 public class MatchInput {
     
