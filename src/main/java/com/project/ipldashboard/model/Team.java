@@ -16,6 +16,9 @@ public class Team {
     private long totalWins;
     
     
+    public Team() {
+        
+    }
     public Team(String teamName, long totalMatches) {
         super();
         this.teamName = teamName;
