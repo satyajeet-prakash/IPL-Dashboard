@@ -25,10 +25,4 @@ public interface MatchRepository extends CrudRepository<Match, Long> {
            @Param("dateStart") LocalDate dateStart,
            @Param("dateEnd") LocalDate dateEnd
            );
-   /*
-    * List<Match> getByTeam1AndDateBetweenOrTeam2AndDateBetweenOrderByDateDesc(
-    * String teamName1, LocalDate date1, LocalDate date2,
-    * String teamName2, LocalDate date_1, LocalDate date_2);
-    */
- 
 }
